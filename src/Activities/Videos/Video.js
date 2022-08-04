@@ -48,13 +48,13 @@ const Video = () => {
       {loaded && (
         <div className="nav">
           <button disabled={page === 1} onClick={unTurnPage}>
-            Back
+            {"\u2B05"}
           </button>
           <button
             disabled={page === data[0].questions.length}
             onClick={turnPage}
           >
-            Next
+            {"\u27A1"}
           </button>
         </div>
       )}
