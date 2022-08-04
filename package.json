@@ -18,6 +18,7 @@
     "start": "node server/index.js",
     "react": "react-scripts start",
     "dev": "nodemon server/index.js -e js,json,css",
+    "heroku-postbuild": "npm run build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
