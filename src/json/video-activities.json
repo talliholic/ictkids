@@ -1,0 +1,115 @@
+[
+  {
+    "title": "Real-Life Robots",
+    "youtube": "8wHJjLMnikU",
+    "questions": [
+      {
+        "type": "options",
+        "question": "What do most robots look like?",
+        "options": [
+          "Most robots don't look like people.",
+          "Most robots look like people.",
+          "Most robots look like animals.",
+          "Most robots look like fruits."
+        ],
+        "correct": 1,
+        "start": 0,
+        "end": 29
+      },
+      {
+        "type": "options",
+        "question": "Why do robots differ in shapes and sizes?",
+        "options": [
+          "Because they have the same jobs to do.",
+          "Because they don't have jobs to do.",
+          "Because they have different jobs to do.",
+          "No, they come in same sizes and shapes."
+        ],
+        "correct": 3,
+        "start": 28,
+        "end": 38
+      },
+      {
+        "type": "options",
+        "question": "What is a robot?",
+        "options": [
+          "A robot is a machine designed to dance.",
+          "A robot is a machine designed to clean.",
+          "A robot is a machine designed to do a specific job.",
+          "A robot is a machine designed to speak."
+        ],
+        "correct": 3,
+        "start": 38,
+        "end": 56
+      },
+      {
+        "type": "options",
+        "question": "What is a roboticist?",
+        "options": [
+          "A person who plays with robots.",
+          "A scientist who likes robots.",
+          "A teacher who teaches ICT.",
+          "A scientist who designs and builds robots."
+        ],
+        "correct": 4,
+        "start": 54,
+        "end": 60
+      },
+      {
+        "type": "options",
+        "question": "Why do roboticists build robots?",
+        "options": [
+          "Because there are jobs people can't do.",
+          "Because robots can't do .",
+          "Because robots look like people.",
+          "Because there are jobs people can do."
+        ],
+        "correct": 1,
+        "start": 59,
+        "end": 76
+      },
+      {
+        "type": "checks",
+        "question": "What can robots do?",
+        "options": [
+          "They can paint cars.",
+          "They can build computers.",
+          "They can wrap candy.",
+          "They can't dance."
+        ],
+        "correct": 1,
+        "checks": [1, 2, 3],
+        "start": 85,
+        "end": 97
+      },
+      {
+        "type": "checks",
+        "question": "Why can robots function better?",
+        "options": [
+          "They don't go on vacation.",
+          "They make more mistakes.",
+          "They make less mistakes.",
+          "They go on vacation."
+        ],
+        "correct": 1,
+        "checks": [1, 3],
+        "start": 97,
+        "end": 110
+      },
+      {
+        "type": "checks",
+        "question": "What can robots do better than people?",
+        "options": [
+          "They can speak more naturally.",
+          "They can control trains at night.",
+          "They can work in volcanoes.",
+          "They can work in space."
+        ],
+        "correct": 1,
+        "checks": [2, 3, 4],
+        "start": 109,
+        "end": 139
+      }
+    ]
+  }
+]

@@ -1,0 +1,51 @@
+.embed {
+  display: flex;
+  flex-flow: row wrap;
+  border: 1px solid black;
+}
+.feedback {
+  height: 100px;
+}
+.feedback img {
+  height: 100px;
+}
+.none {
+  display: none;
+}
+.nav {
+  float: right;
+}
+iframe,
+.item {
+  padding: 20px;
+}
+.item {
+  width: 550px;
+}
+form,
+input,
+p,
+button {
+  font-size: 19px;
+}
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 10px;
+}
+input[type="submit"] {
+  float: right;
+  margin-top: 15px;
+}
+button {
+  margin: 15px;
+}
+p {
+  margin: 10px;
+}
+.info {
+  border: 1px dashed black;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}

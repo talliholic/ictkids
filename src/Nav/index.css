@@ -1,0 +1,11 @@
+.active-link {
+  font-weight: bold;
+}
+.link {
+  font-weight: normal;
+}
+.link,
+.active-link {
+  padding: 20px;
+  font-size: 17px;
+}
