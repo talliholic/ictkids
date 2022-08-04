@@ -1,5 +1,7 @@
-const Home = () => {
-  return <div>Welcome to ICT Kids</div>;
-};
+import "./index.css"
 
-export default Home;
+const Home = () => {
+  return <div className="container">Welcome to ICT Kids</div>
+}
+
+export default Home
