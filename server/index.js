@@ -1,6 +1,6 @@
-const path = require("path")
 const express = require("express")
 var cors = require("cors")
+const clientRoutes = require("./routes/client")
 
 const app = express()
 const port = process.env.PORT || 5000
@@ -8,18 +8,8 @@ app.use(cors())
 
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("build"))
-
-  app.get("/", (req, res) => {
-    res.sendFile(path.resolve(__dirname, "../build", "index.html"))
-  })
-  app.get("/video-activit*", (req, res) => {
-    res.sendFile(path.resolve(__dirname, "../build", "index.html"))
-  })
+  app.use(clientRoutes)
 }
-
-app.get("/test", (req, res) => {
-  res.json({ test: "this is a test" })
-})
 
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
