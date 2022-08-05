@@ -8,3 +8,5 @@ const reactRoute = (req, res) => {
 
 router.get("", reactRoute)
 router.get("/video-activit*", reactRoute)
+
+module.exports = router
